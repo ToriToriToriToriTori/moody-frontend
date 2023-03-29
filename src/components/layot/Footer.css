@@ -1,0 +1,19 @@
+.footer-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #717744;
+    color: #eff1ed;
+}
+.contacts{}
+.brand-name{
+    font-size: 36px;
+    color: #373d20;
+}
+.brand-name::first-letter{
+    color: #191a0e;
+}
+.info{
+    
+}

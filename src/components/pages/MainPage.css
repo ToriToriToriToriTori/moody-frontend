@@ -1,0 +1,85 @@
+.page{
+    margin-bottom: 100px;
+}
+.banner{
+    height: 17vh;
+
+    padding:1.2rem;
+    position: relative;
+
+    background: rgb(0,136,122);
+    background: -moz-linear-gradient(118deg, rgba(0,136,122,1) 0%, rgba(101,154,246,1) 100%);
+    background: -webkit-linear-gradient(118deg, rgba(0,136,122,1) 0%, rgba(101,154,246,1) 100%);
+    background: linear-gradient(118deg, rgba(0,136,122,1) 0%, rgba(101,154,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00887a",endColorstr="#659af6",GradientType=1);
+}
+.banner>span{
+    font-size: 2rem;
+    position: absolute;
+    bottom: 1.5rem;
+
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.main-ttl{
+    color: #00887A;
+
+    font-weight: bolder;
+
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.steps{
+
+    padding: 1rem;
+
+    margin-top: 1rem;
+
+    display: grid;
+    grid-template-columns: 7rem 7rem;
+    grid-template-rows: 1fr 1fr;
+
+    margin-left: auto;
+
+    row-gap: 1rem;
+    column-gap: 3rem;
+}
+
+.step{
+    background-color: #00887a;
+    color: #ffffff;
+    text-align: center;
+    width: 7rem;
+    height: 7rem;
+
+    margin: 0 auto;
+    padding: 1rem 1rem;
+
+    border-radius: 10px;
+}
+
+.step > span{
+    display: block;
+}
+.step > span:first-child{
+    font-size: 2.2rem;
+}
+.step > span:last-child{
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+}
+
+.main-illustration{
+    display: block;
+    height: 10rem;
+    margin: 1.5rem auto;
+    border-radius: 10px;
+}
+
+
+.mainpage-text{
+    padding: 0 1.5rem;
+    text-align: justify;
+}
