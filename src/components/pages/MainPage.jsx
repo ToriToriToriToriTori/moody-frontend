@@ -1,5 +1,6 @@
 import './MainPage.css';
 import img1 from '../../img/undraw_Conference_girl_write_smth.png';
+import {Link} from 'react-router-dom';
 
 function MainPage () {
     return (
@@ -48,6 +49,13 @@ function MainPage () {
                 </ul>
             </div>
 
+            <div>
+            <Link to='/profile' className='tryitnow-btn'>
+               <button className='tryitnow-btn'>Спробувати зараз</button>
+            </Link>
+            </div>
+
+           
         </div>
     );
 }

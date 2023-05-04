@@ -1,0 +1,29 @@
+.card {
+    width: 70%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: auto;
+  }
+  
+  .auth-form {
+    display: grid;
+    grid-template-columns: 1fr; /* This line sets up a grid with two columns */
+    grid-gap: 1rem;
+  }
+  
+  .auth-form > input {
+    width: 100%;
+    height: 1.5rem;
+  }
+  
+  .submit {
+    background-color:  #00887A;
+    color: #ffffff;
+    border: none;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    justify-self: end; /* This line aligns the button to the end of the grid cell */
+  }

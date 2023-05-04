@@ -2,7 +2,8 @@ import {Link} from 'react-router-dom';
 import { PresentationChartLineIcon, UserIcon, PlusCircleIcon, CalendarDaysIcon, HomeIcon } from '@heroicons/react/24/solid';
 
 import './Header.css';
-function Header() {
+function Header(props) {
+  if(props.auth){
     return (
       <div className="header-box">
           <div>
@@ -33,6 +34,22 @@ function Header() {
          
       </div>
     );
+  }else{
+    return (
+      <div className="header-box">
+          <div>
+            <Link to='/' className='navlink'>
+              <HomeIcon></HomeIcon>
+            </Link>
+          </div>
+          <div>
+            <Link to='/auth' className='navlink'>
+              <UserIcon></UserIcon>
+            </Link>
+          </div>
+      </div>
+    );
+  }
   }
 
 export default Header;
