@@ -4,9 +4,8 @@
     font-size: 4.5rem;
 
     width: 17rem;
-    margin: 1rem auto;
 
-    padding: 0.1rem 0;
+    padding: 1rem 0.1rem 0 0.1rem;
 
     text-align: center;
 
@@ -24,7 +23,6 @@
     margin: 0 0;
     padding: 0 0;
 }
-
 .emotion-radio input{
     display: block;
     position: absolute;
@@ -67,7 +65,8 @@
 .addnewform{
     display: grid;
     justify-content: center;
-
+    row-gap: 0.8rem;
+    margin-top: 2rem;
 }
 .addnewformbtn{
 
@@ -95,6 +94,11 @@
     background: linear-gradient(118deg, rgba(0,136,122,1) 0%, rgba(101,154,246,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00887a",endColorstr="#659af6",GradientType=1);
 
-  
+}
 
+
+@media (min-width: 768px) {
+    .addnewform{
+        
+    }
 }

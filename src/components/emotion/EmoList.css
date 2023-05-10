@@ -1,17 +1,53 @@
+.celendar-filters{
+}
+
 .emotion-list-item{
     display: flex;
+    align-items: center;
     gap: 1rem;
 
     margin: 1rem auto;
-    padding: 1rem 1rem 0 1rem;
-    width: 90%;
-    border: 2px solid;
+    padding: 1rem;
+    width: 80%;
+    border: 2px solid #99cfca;
     border-radius: 1rem;
+    color: #00887A;
+    background-color: #e6f3f2;
 
 }
-.emo-icon{
-    font-size: 4rem;
+
+.emo-icon-celendar{
+    font-size: 5rem;
+
+    height: auto;
+    border-radius: 1rem;
+    padding: 0.3rem;
 }
+
+.celendar-filter {
+    width: 80%;
+    border: 2px solid;
+    border-radius: 1rem;
+    font-size: large;
+    padding: 0.5rem 0.9rem;
+
+    margin: 1rem auto;
+
+    display: block;
+    color: #00887A;
+}
+
 .emo-other{}
 .list-item-reason{}
 .list-item-description{}
+
+@media (min-width: 768px) {
+    .celendar-filters{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .celendar-filter {
+        display: inline;
+    }
+    
+}
